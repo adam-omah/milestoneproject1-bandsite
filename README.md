@@ -5,7 +5,7 @@ Begining date: 21/12/2018
 End Date:
 Submission Date:
 
-The project will be based on wireframes contained in the assests folder.
+The project will be based on wireframes contained in the assests folder. (Links to wireframes can be found in the text file: /assets/wireframes/Links to wire frames)
 
 For basic structure Bootstrap has been used alongside HTML and CSS to provide the final result seen when the project is run.
 
