@@ -32,7 +32,9 @@ For basic structure Bootstrap has been used alongside HTML and CSS to provide th
 
 3.Media Page dedicated to the Audio tracks for users to listen to & watch.
 
-4.Contact page allowing fans to write to the band and prospective clientel to get in touch for hiring the band.
+4.News page for latest, 
+
+5.Contact page allowing fans to write to the band and prospective clientel to get in touch for hiring the band.
 
 All pages will have Navigation and footer elements and footer will contain social links.
 

@@ -24,6 +24,12 @@
     font-size: 18px;
 }
 
+.fa {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #df1f08;
+}
+
 /*------------- Header&nav media queries ---------------- */
 @media (min-width: 768px){
 .navbar-collapse.collapse {
@@ -54,6 +60,5 @@
     font-size: 30px;
 }
 }
-
 
 /*------------- /Header + Nav ---------------- */
