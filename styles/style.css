@@ -10,3 +10,50 @@
     margin: 0;
     padding: 0;
 }
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin:0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+.navbar-nav>li>a {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*------------- Header&nav media queries ---------------- */
+@media (min-width: 768px){
+.navbar-collapse.collapse {
+    display: block!important;
+    height: 100px !important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+.navbar-right {
+ padding-top: 3.5vw;
+ margin-right: 40px;
+ font-size: 20px;
+}
+#nav-logo {
+    height: 100px;
+    width: 200px;
+}
+
+}
+
+@media (min-width: 992px) {
+.navbar-right {
+    padding-top: 2vw;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+}
+
+
+/*------------- /Header + Nav ---------------- */
