@@ -9,6 +9,12 @@
     width: 100px;
     margin: 0;
     padding: 0;
+    border-radius: 50%
+}
+
+.navbar {
+    margin: 0;
+    border: none;
 }
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -21,12 +27,18 @@
 }
 .navbar-nav>li>a {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
+.nav>li>a {
+    padding: 5px;
+}
+
+
+
 .fa {
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
     color: #df1f08;
 }
 
@@ -41,7 +53,7 @@
 .navbar-right {
  padding-top: 3.5vw;
  margin-right: 40px;
- font-size: 20px;
+ font-size: 18px;
 }
 #nav-logo {
     height: 100px;
@@ -57,8 +69,109 @@
 .navbar-nav>li>a {
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 30px;
+    font-size: 25px;
 }
 }
 
 /*------------- /Header + Nav ---------------- */
+
+
+/*------------- Footer ---------------- */
+
+
+footer {
+    background-color: #666
+}
+
+
+@media (min-width: 768px) {
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 0px;
+}
+}
+ .social-links .fa {
+     font-size: 20px;
+     color: #fff;
+ }
+ 
+ @media (min-width: 768px) {
+     
+      .social-links .fa {
+     font-size: 25px;
+     color: #fff;
+ }
+ }
+ 
+ .trademark{
+    text-align: left;
+    color: #fff;
+}
+
+.trademark .credits {
+    font-size: 14px;
+}
+
+.social-header {
+    color: #fff;
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+     .trademark{
+            text-align: center;
+            color: #fff;
+            padding-top: 20px;
+        }
+        .trademark .credits {
+           font-size: 20px;
+        }
+        .social-header {
+        color: #fff;
+        font-size: 20px;
+        }
+}
+
+.social {
+    text-align: center;
+}
+
+.credits {
+    text-align: left;
+}
+
+#social-inline li {
+    display: inline;
+    padding-right: 2px;
+}
+
+#social-inline {
+    padding-left: 0px;
+}
+ 
+
+/*------------- /Footer ---------------- */
+
+
+/*------------- Hero Image ---------------- */
+
+.hero-image {
+    height: 250px;
+    background-image:url(/assets/images/monkees.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:0;
+}
+
+@media (min-width: 768px) { 
+    .hero-image {
+        height: 500px;
+        background-size: cover;
+    }
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+}
