@@ -219,3 +219,53 @@ ul {
 
 
 /*------------- /CTA section---------------- */
+
+
+/*------------- News & Events section---------------- */
+
+.news-section {
+    background-color: #df1f08;
+    color: #fff;
+}
+
+.news-section a {
+    color:#fff;
+    text-decoration: underline;
+}
+
+.news-section a:hover {
+color:#f8e504;
+}
+
+.events {
+    padding-bottom: 20px;
+}
+
+.btn {
+  border-radius: 9px;
+  font-family: inherit;
+  color: #ffffff;
+  background: #df1f08;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  white-space: normal;
+}
+
+.btn:hover {
+  background: #f8e504;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #666666;
+}
+
+@media (min-width: 992px) {
+
+.events {
+    padding-top: 80px;
+}
+
+}
+
+/*------------- /News section---------------- */
+
+
