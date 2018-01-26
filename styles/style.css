@@ -83,6 +83,9 @@ footer {
     background-color: #666
 }
 
+ul {
+list-style-type: none;
+}
 
 @media (min-width: 768px) {
 ul {
@@ -141,12 +144,12 @@ ul {
     text-align: left;
 }
 
-#social-inline li {
+#social-inline li, #social-inline ul , .social-links li, .social-links ul {
     display: inline;
     padding-right: 2px;
 }
 
-#social-inline {
+#social-inline, .social-links {
     padding-left: 0px;
 }
  
@@ -157,7 +160,7 @@ ul {
 /*------------- Hero Image ---------------- */
 
 .hero-image {
-    height: 250px;
+    height: 215px;
     background-image:url(/assets/images/monkees.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -194,3 +197,25 @@ ul {
         padding-bottom: 5px;
 }
 }
+
+/*------------- /Hero Image ---------------- */
+
+
+/*------------- CTA section---------------- */
+
+.cta-section {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    
+.cta-image {
+    height: 300px;
+    width: 300px;
+}
+
+}
+
+
+/*------------- /CTA section---------------- */
