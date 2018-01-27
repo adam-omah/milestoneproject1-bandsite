@@ -20,6 +20,8 @@ For basic structure Bootstrap has been used alongside HTML and CSS to provide th
  
  5.All Assests provided by the project outline will be found within the assets folder and any additional images & assests have been added to the additional folder.
  
+ 6.News Articles content are snippets from monkees.com
+ 
  *note bootstrap v3.3.7 was used for basic layout functionality
  *font awesome cnd found at: https://www.bootstrapcdn.com/fontawesome/
  *Javascript and jQuery were used for the mega menu for mobile. this was done using Bootstrap nav class elements

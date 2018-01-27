@@ -226,6 +226,8 @@ ul {
 .news-section {
     background-color: #df1f08;
     color: #fff;
+    border-radius: 25px;
+    margin: 0 2vw;
 }
 
 .news-section a {
@@ -238,7 +240,11 @@ color:#f8e504;
 }
 
 .events {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    border: 2px solid #333;
+    padding-top: 10px;
+    border-radius: 25px;
+    margin: 10px 10.5vw;
 }
 
 .btn {
@@ -261,11 +267,22 @@ color:#f8e504;
 @media (min-width: 992px) {
 
 .events {
-    padding-top: 80px;
+    margin: 80px 0px 10px 0px;
+}
+.news-section { 
+    margin: 0px;
 }
 
 }
 
 /*------------- /News section---------------- */
 
+
+.image-left {
+    float:left;
+}
+
+.image-right {
+    float:right;
+}
 
