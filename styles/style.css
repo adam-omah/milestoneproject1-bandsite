@@ -161,7 +161,7 @@ ul {
 
 .hero-image {
     height: 215px;
-    background-image:url(assets/images/monkees.jpg);
+    background-image:url(../assets/images/monkees.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     padding:0;
