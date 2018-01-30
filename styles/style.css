@@ -1,7 +1,7 @@
 
 
 
-/*------------- Header + Nav ---------------- */
+/*------------- Header + Nav  -global ---------------- */
 
 
 #nav-logo {
@@ -42,7 +42,7 @@
     color: #df1f08;
 }
 
-/*------------- Header&nav media queries ---------------- */
+/*------------- Header&nav media queries -global ---------------- */
 @media (min-width: 768px){
 .navbar-collapse.collapse {
     display: block!important;
@@ -73,10 +73,10 @@
 }
 }
 
-/*------------- /Header + Nav ---------------- */
+/*------------- /Header + Nav  -global ---------------- */
 
 
-/*------------- Footer ---------------- */
+/*------------- Footer -global ---------------- */
 
 
 footer {
@@ -154,10 +154,10 @@ ul {
 }
  
 
-/*------------- /Footer ---------------- */
+/*------------- /Footer -global ---------------- */
 
 
-/*------------- Hero Image ---------------- */
+/*------------- Hero Image -homepage  ---------------- */
 
 .hero-image {
     height: 215px;
@@ -181,7 +181,7 @@ ul {
     text-shadow: 1.5px 1.5px 2px #e02812;
 }
 .hero-h3{
-    background-color: #333333ad;
+    background-color: rgba(51, 51, 51, 0.6784313725490196);
 }
 
 @media (min-width: 768px) { 
@@ -198,10 +198,10 @@ ul {
 }
 }
 
-/*------------- /Hero Image ---------------- */
+/*------------- /Hero Image -homepage---------------- */
 
 
-/*------------- CTA section---------------- */
+/*------------- CTA section -homepage---------------- */
 
 .cta-section {
     margin-top: 10px;
@@ -218,10 +218,10 @@ ul {
 }
 
 
-/*------------- /CTA section---------------- */
+/*------------- /CTA section -homepage---------------- */
 
 
-/*------------- News & Events section---------------- */
+/*------------- News & Events section -homepage---------------- */
 
 .news-section {
     background-color: #df1f08;
@@ -275,19 +275,43 @@ color:#f8e504;
 
 }
 
-/*------------- /News section---------------- */
+/*------------- /News section -homepage ---------------- */
 
 
-.image-left {
-    float:left;
-}
-
-.image-right {
-    float:right;
-}
-
-
+/*------------- News Page ---------------- */
 
 .news-list {
      display: inline;
 }
+
+.news-last-img {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+
+/*------------- /News Page ---------------- */
+
+
+/*------------- About Page ---------------- */
+
+@media (min-width: 768px) {
+    
+.about-post-image-left{
+    margin-right: 20px;
+}
+
+}
+
+
+/*------------- /About Page ---------------- */
+
+/*------------- Contact Page ---------------- */
+
+.contact-btn {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+/*------------- /Contact Page ---------------- */

@@ -22,6 +22,8 @@ For basic structure Bootstrap has been used alongside HTML and CSS to provide th
  
  6.News Articles content are snippets from monkees.com
  
+ 7.About page Bio's extracted from Wikipedia entries of each of the band members.
+ 
  *note bootstrap v3.3.7 was used for basic layout functionality
  *font awesome cnd found at: https://www.bootstrapcdn.com/fontawesome/
  *Javascript and jQuery were used for the mega menu for mobile. this was done using Bootstrap nav class elements
