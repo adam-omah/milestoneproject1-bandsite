@@ -1,5 +1,22 @@
 
+/*------------- Global Class tags ---------------- */
 
+.bg-color-red{
+    background-color: #df1f08;
+    color:#fff;
+}
+
+.image-top-padding {
+    margin-top: 30px;
+}
+
+.bg-color-darkgrey {
+    background-color: #333;
+    color:#fff;
+}
+
+
+/*------------- /Global Class tags ---------------- */
 
 /*------------- Header + Nav  -global ---------------- */
 
@@ -30,6 +47,7 @@
 
 .nav>li>a {
     padding: 5px;
+    margin-right: 10px;
 }
 
 
@@ -55,12 +73,16 @@
 }
 .navbar-right {
  padding-top: 3.5vw;
- margin-right: 40px;
+ margin-right: 0px;
  font-size: 18px;
 }
 #nav-logo {
     height: 100px;
     width: 200px;
+}
+
+.navbar-nav>li>a {
+    font-size: 18px;
 }
 
 }
@@ -272,6 +294,21 @@ color:#f8e504;
 
 /*------------- /News section -homepage ---------------- */
 
+/*------------- Listen Page ---------------- */
+
+.aduio-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+     .audio-player {
+         margin-top: 5%;
+     }   
+}
+
+
+/*------------- Listen Page ---------------- */
 
 /*------------- News Page ---------------- */
 
@@ -283,6 +320,21 @@ color:#f8e504;
     margin: 0 auto;
     display: block;
     width: 80%;
+}
+
+.tour-dates {
+    padding: 20px 0px;
+    margin-bottom:10px;
+    font-size: 16px;
+}
+
+.news-section-row{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tour-date-month {
+    font-size: 20px;
 }
 
 /*------------- /News Page ---------------- */
@@ -312,14 +364,14 @@ color:#f8e504;
 @media (min-width: 768px) {
 .radiobuttons {
     width: 535px;
-    margin-left: -90px;
+    margin-left: -75px;
 }
 }
 
 @media (min-width: 992px) {
 .radiobuttons {
     width: 535px;
-    margin-left: -25px;
+    margin-left: 40px;
 }
 }
 
