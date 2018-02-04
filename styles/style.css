@@ -19,6 +19,13 @@
 background-color: #cdcbcb;
 }
 
+h1,h2,h5 {
+    font-family: 'Monoton', cursive;
+}
+
+p,body,a,h3,h4,h6 {
+    font-family: 'Amaranth', sans-serif;
+}
 
 /*------------- /Global Class tags ---------------- */
 
@@ -211,7 +218,7 @@ ul {
     padding: 20px;
     text-shadow: 1px 1px 1px black;
 }
-.hero-h3{
+.hero-h2{
     background-color: rgba(51, 51, 51, 0.6784313725490196);
 }
 
@@ -228,8 +235,8 @@ ul {
         background-size: cover;
     }
     
-     .hero-h3{
-        font-size: 40px;
+     .hero-h2{
+        font-size: 30px;
         margin-top: 115px;
         padding-top: 5px;
         padding-bottom: 5px;
