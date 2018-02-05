@@ -1,9 +1,8 @@
-
 /*------------- Global Class tags ---------------- */
 
-.bg-color-red{
+.bg-color-red {
     background-color: #df1f08;
-    color:#fff;
+    color: #fff;
 }
 
 .image-top-padding {
@@ -12,18 +11,25 @@
 
 .bg-color-darkgrey {
     background-color: #333;
-    color:#fff;
+    color: #fff;
 }
 
 .bg-color-light-grey {
-background-color: #cdcbcb;
+    background-color: #cdcbcb;
 }
 
-h1,h2,h5 {
+h1,
+h2,
+h5 {
     font-family: 'Monoton', cursive;
 }
 
-p,body,a,h3,h4,h6 {
+p,
+body,
+a,
+h3,
+h4,
+h6 {
     font-family: 'Amaranth', sans-serif;
 }
 
@@ -47,8 +53,9 @@ p,body,a,h3,h4,h6 {
     border: none;
 }
 
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin:0;
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    margin: 0;
     padding: 0;
 }
 
@@ -77,76 +84,25 @@ p,body,a,h3,h4,h6 {
     padding-left: 0px;
 }
 
-/*------------- Header&nav media queries -global ---------------- */
-@media (min-width: 768px){
-.navbar-collapse.collapse {
-    display: block!important;
-    height: 100px !important;
-    padding-bottom: 0;
-    overflow: visible!important;
-}
-.navbar-right {
- padding-top: 3.5vw;
- margin-right: 0px;
- font-size: 18px;
-}
-#nav-logo {
-    height: 100px;
-    width: 200px;
-}
-
-.navbar-nav>li>a {
-    font-size: 18px;
-}
-
-}
-
-@media (min-width: 992px) {
-.navbar-right {
-    padding-top: 2vw;
-}
-.navbar-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 25px;
-}
-}
-
 /*------------- /Header + Nav  -global ---------------- */
 
-
 /*------------- Footer -global ---------------- */
-
 
 footer {
     background-color: #666
 }
 
 ul {
-list-style-type: none;
+    list-style-type: none;
 }
 
-@media (min-width: 768px) {
-ul {
-    display: inline-flex;
-    list-style-type: none;
-    padding-left: 0px;
+
+.social-links .fa {
+    font-size: 20px;
+    color: #fff;
 }
-}
- .social-links .fa {
-     font-size: 20px;
-     color: #fff;
- }
- 
- @media (min-width: 768px) {
-     
-      .social-links .fa {
-     font-size: 25px;
-     color: #fff;
- }
- }
- 
- .trademark{
+
+.trademark {
     text-align: left;
     color: #fff;
 }
@@ -160,21 +116,6 @@ ul {
     font-size: 14px;
 }
 
-@media (min-width: 992px) {
-     .trademark{
-            text-align: center;
-            color: #fff;
-            padding-top: 20px;
-        }
-        .trademark .credits {
-           font-size: 20px;
-        }
-        .social-header {
-        color: #fff;
-        font-size: 20px;
-        }
-}
-
 .social {
     text-align: center;
 }
@@ -183,27 +124,30 @@ ul {
     text-align: left;
 }
 
-#social-inline li, #social-inline ul , .social-links li, .social-links ul {
+#social-inline li,
+#social-inline ul,
+.social-links li,
+.social-links ul {
     display: inline;
     padding-right: 2px;
 }
 
-#social-inline, .social-links {
+#social-inline,
+.social-links {
     padding-left: 0px;
 }
 
 
 /*------------- /Footer -global ---------------- */
 
-
 /*------------- Hero Image -homepage  ---------------- */
 
 .hero-image {
     height: 60vw;
-    background-image:url(../assets/images/monkees.jpg);
+    background-image: url(../assets/images/monkees.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    padding:0;
+    padding: 0;
 }
 
 
@@ -213,43 +157,22 @@ ul {
 }
 
 .hero-quote {
-    color:#fff;
+    color: #fff;
     text-align: center;
     padding: 20px;
     text-shadow: 1px 1px 1px black;
 }
-.hero-h2{
+
+.hero-h2 {
     background-color: rgba(51, 51, 51, 0.6784313725490196);
+    font-size:18px;
 }
 
-@media (max-width:370px) {
-    
-    .hero-image {
-    height: 100%;
-    }
-}
 
-@media (min-width: 768px) { 
-    .hero-image {
-        height: 500px;
-        background-size: cover;
-    }
-    
-     .hero-h2{
-        font-size: 30px;
-        margin-top: 115px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        margin-left: 150px;
-        margin-right: 150px;
-}
-}
 
 /*------------- /Hero Image -homepage---------------- */
 
-
 /*------------- CTA section -homepage---------------- */
-
 
 .cta-section {
     margin-top: 10px;
@@ -257,21 +180,11 @@ ul {
 }
 
 .cta-section a {
-    color:#df1f08;
-}
-
-@media (min-width: 768px) {
-    
-.cta-image {
-    height: 300px;
-    width: 300px;
-}
-
+    color: #df1f08;
 }
 
 
 /*------------- /CTA section -homepage---------------- */
-
 
 /*------------- News & Events section -homepage---------------- */
 
@@ -282,12 +195,12 @@ ul {
 }
 
 .news-section a {
-    color:#fff;
+    color: #fff;
     text-decoration: underline;
 }
 
 .news-section a:hover {
-color:#f8e504;
+    color: #f8e504;
 }
 
 .events {
@@ -300,24 +213,22 @@ color:#f8e504;
 }
 
 .btn {
-  border-radius: 9px;
-  font-family: inherit;
-  color: #ffffff;
-  background: #df1f08;
-  padding: 5px 10px 5px 10px;
-  text-decoration: none;
-  white-space: normal;
+    border-radius: 9px;
+    font-family: inherit;
+    color: #ffffff;
+    background: #df1f08;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    white-space: normal;
 }
 
 .btn:hover {
-  background: #f8e504;
-  text-decoration: none;
-  color: #ffffff;
-  text-shadow: 1px 1px 2px #666666;
+    background: #f8e504;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #666666;
 }
 
-@media (min-width: 992px) {
-}
 
 /*------------- /News section -homepage ---------------- */
 
@@ -330,19 +241,13 @@ color:#f8e504;
     margin-bottom: 10px;
 }
 
-@media (min-width: 768px) {
-     .audio-player {
-         margin-top: 5%;
-     }   
-}
-
 
 /*------------- Listen Page ---------------- */
 
 /*------------- News Page ---------------- */
 
 .news-list {
-     display: inline;
+    display: inline;
 }
 
 .news-last-img {
@@ -353,14 +258,14 @@ color:#f8e504;
 
 .tour-dates {
     padding: 20px 0px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     font-size: 16px;
     padding-bottom: 40px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.news-section-row{
+.news-section-row {
     margin-top: 15px;
     padding-bottom: 15px;
     padding-top: 40px;
@@ -373,15 +278,8 @@ color:#f8e504;
     margin-left: 13vw;
 }
 
-@media (min-width: 768px) {
-    .tour-date-month {
-        margin-left: auto;
-    }
-}
-
 
 /*------------- /News Page ---------------- */
-
 
 /*------------- About Page ---------------- */
 
@@ -391,20 +289,11 @@ color:#f8e504;
 }
 
 
-@media (min-width: 768px) {
-    
-.about-post-image-left{
-    margin-right: 20px;
-}
-
-}
-
-
 /*------------- /About Page ---------------- */
 
 /*------------- Contact Page ---------------- */
 
-.form-section{
+.form-section {
     margin-bottom: 50px;
 }
 
@@ -425,22 +314,108 @@ color:#f8e504;
     margin-left: 10px;
 }
 
-@media (min-width: 768px) {
-.radiobuttons {
-    width: 535px;
-    margin-left: -145px;
-    display: inline-block;
-}
-}
-
-@media (min-width: 992px) {
-.radiobuttons {
-    width: 535px;
-    margin-left: -70px;
-}
-}
-
-
 
 
 /*------------- /Contact Page ---------------- */
+
+/*------------- Media Queries ---------------- */
+
+@media (max-width:370px) {
+
+    .hero-image {
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse.collapse {
+        display: block!important;
+        height: 100px !important;
+        padding-bottom: 0;
+        overflow: visible!important;
+    }
+    .navbar-right {
+        padding-top: 3.5vw;
+        margin-right: 0px;
+        font-size: 18px;
+    }
+    #nav-logo {
+        height: 100px;
+        width: 200px;
+    }
+
+    .navbar-nav>li>a {
+        font-size: 18px;
+    }
+    ul {
+        display: inline-flex;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .social-links .fa {
+        font-size: 25px;
+        color: #fff;
+    }
+    .hero-image {
+        height: 500px;
+        background-size: cover;
+    }
+
+    .hero-h2 {
+        font-size: 30px;
+        margin-top: 115px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .cta-image {
+        height: 300px;
+        width: 300px;
+    }
+    .audio-player {
+        margin-top: 5%;
+    }
+    .tour-date-month {
+        margin-left: auto;
+    }
+    .about-post-image-left {
+        margin-right: 20px;
+    }
+    .radiobuttons {
+        width: 535px;
+        margin-left: -145px;
+        display: inline-block;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .navbar-right {
+        padding-top: 2vw;
+    }
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+    .trademark {
+        text-align: center;
+        color: #fff;
+        padding-top: 20px;
+    }
+    .trademark .credits {
+        font-size: 20px;
+    }
+    .social-header {
+        color: #fff;
+        font-size: 20px;
+    }
+    .radiobuttons {
+        width: 535px;
+        margin-left: -70px;
+    }
+}
+
+/*------------- /Media Queries ---------------- */
