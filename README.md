@@ -63,5 +63,5 @@ The site was built with a mobile first approach begining at the mobile level and
 
 * Site was tested at different screen widths and different devices via the google chrome developer tools.
 * All css has been checked with w3c css validator: [CSS Validator](https://jigsaw.w3.org/css-validator/) [Referer](http://jigsaw.w3.org/css-validator/check/referer) ![Image](http://jigsaw.w3.org/css-validator/images/vcss-blue) 
-* All Html was checked using  [HTML Validator](https://validator.w3.org/) 
+* All Html was checked using  [HTML Validator](https://validator.w3.org/)
 
