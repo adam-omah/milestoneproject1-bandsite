@@ -1,10 +1,10 @@
 Hello! Thank you for reviewing this website project.
 =======
 
-##Author: Adam O'Mahony.
-##Begining date: 21/12/2018
-##End Date:05/02/2018
-##Submission Date:
+## Author: Adam O'Mahony.
+## Begining date: 21/12/2018
+## End Date:05/02/2018
+## Submission Date:
 
 The project will be based on wireframes contained in the assets folder. (Links to wireframes can be found in the text file [wireframes](assets/wireframes/Links to wire frames)
 For basic structure Bootstrap has been used alongside HTML and CSS to provide the final result seen when the project is run.
@@ -62,6 +62,6 @@ The site was built with a mobile first approach begining at the mobile level and
 ---
 
 * Site was tested at different screen widths and different devices via the google chrome developer tools.
-* All css has been checked with w3c css validator: https://jigsaw.w3.org/css-validator/
-* All Html was checked using https://validator.w3.org/
+* All css has been checked with w3c css validator: [CSS Validator](https://jigsaw.w3.org/css-validator/) [Referer](http://jigsaw.w3.org/css-validator/check/referer) ![Image](http://jigsaw.w3.org/css-validator/images/vcss-blue) 
+* All Html was checked using  [HTML Validator](https://validator.w3.org/) 
 
