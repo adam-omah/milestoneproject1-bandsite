@@ -51,6 +51,8 @@ h6 {
 .navbar {
     margin: 0;
     border: none;
+    border-bottom: 1px solid #df1f08;
+    border-radius: 0px;
 }
 
 .navbar>.container .navbar-brand,
@@ -163,9 +165,9 @@ ul {
     text-shadow: 1px 1px 1px black;
 }
 
-.hero-h2 {
+.hero-h3 {
     background-color: rgba(51, 51, 51, 0.6784313725490196);
-    font-size:18px;
+    font-size: 18px;
 }
 
 
@@ -241,8 +243,13 @@ ul {
     margin-bottom: 10px;
 }
 
+.video-section {
+    width: 320px;
+    height: 240px;
+}
 
-/*------------- Listen Page ---------------- */
+
+/*------------- /Listen Page ---------------- */
 
 /*------------- News Page ---------------- */
 
@@ -261,16 +268,19 @@ ul {
     margin-bottom: 10px;
     font-size: 16px;
     padding-bottom: 40px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+}
+
+.tour-date {
+    font-family: 'Monoton', cursive;
+    font-size: 18px;
 }
 
 .news-section-row {
     margin-top: 15px;
     padding-bottom: 15px;
     padding-top: 40px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
 }
 
 .tour-date-month {
@@ -362,13 +372,13 @@ ul {
         background-size: cover;
     }
 
-    .hero-h2 {
+    .hero-h3 {
         font-size: 30px;
-        margin-top: 115px;
+        margin-top: 220px;
         padding-top: 5px;
         padding-bottom: 5px;
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
     .cta-image {
         height: 300px;
@@ -379,14 +389,22 @@ ul {
     }
     .tour-date-month {
         margin-left: auto;
+        font-size: 24px;
     }
     .about-post-image-left {
         margin-right: 20px;
     }
     .radiobuttons {
         width: 535px;
-        margin-left: -145px;
+        margin-left: -20vw;
         display: inline-block;
+    }
+    .video-section {
+        width: 600px;
+        height: 320px;
+    }
+    .main-wrapper {
+    min-height:calc(100vh - 212px);
     }
 
 }
@@ -414,7 +432,16 @@ ul {
     }
     .radiobuttons {
         width: 535px;
-        margin-left: -70px;
+        margin-left: -6vw;
+    }
+    .main-wrapper {
+    min-height:calc(100vh - 225px);
+    }
+}
+
+@media (min-width: 1400px){
+    .radiobuttons {
+    margin-left: -4vw;
     }
 }
 
